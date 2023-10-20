@@ -13,7 +13,7 @@ terraform {
     }
     resource "aws_instance" "example" {
   ami           = "ami-0b40baa8c6b882e6c" 
-  instance_type = "t2.micro"
+  instance_type = "t2.medium"
   tags = {
     "Name" = "Myec2Instance"
   }
