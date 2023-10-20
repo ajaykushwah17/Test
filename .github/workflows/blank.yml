@@ -33,5 +33,5 @@ jobs:
 
       - name: Terraform Init & Apply
         run: |
-          terraform init -var="instance_type=t2.medium"
-          terraform apply -auto-approve -var="instance_type=t2.medium"
+          terraform init -var="instance_type=t2.micro"
+          terraform apply -auto-approve -var="instance_type=t2.micro"
